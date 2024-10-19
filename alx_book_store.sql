@@ -23,7 +23,7 @@ CREATE TABLE Orders(
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
     
 );
-CREATE TABLE Orders_Details(
+CREATE TABLE Order_Details(
     orderdetailid PRIMARY KEY,
     order_id INT FOREIGN KEY,
     book_id INT  FOREIGN KEY,
