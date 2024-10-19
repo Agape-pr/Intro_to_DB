@@ -17,7 +17,7 @@ CREATE TABLE Customers(
 
 );
 CREATE TABLE Orders(
-    order_id PRIMARY KEY,
+    order_id INT PRIMARY KEY,
     customer_id FOREIGN KEY,
     order_data DATE
 );
